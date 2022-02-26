@@ -7,7 +7,7 @@
   "homepage": "./",
   "scripts": {
     "start": "env-cmd -f ./env/.env.local react-scripts start",
-    "build": "react-scripts build",
+    "build": "env-cmd -f ./env/.env.local react-scripts build",
     "build:preflight": "env-cmd -f ./env/.env.preflight npm run build",
     "build:prod": "env-cmd -f ./env/.env.prod npm run build",
     "build:prod:electron": "env-cmd -f ./env/.env.electron.prod npm run build",

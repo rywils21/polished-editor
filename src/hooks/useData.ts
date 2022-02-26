@@ -201,7 +201,7 @@ export function loadDemoData(data: AppData): void {
           width: 1000,
           position: { x: -791, y: 100 },
           resizing: [],
-          src: "https://polished.app/work-in-progress",
+          src: "https://polished.app",
         },
       ],
       selection: [],
